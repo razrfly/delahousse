@@ -1,0 +1,3 @@
+main:
+  - { url: '/brand', text: 'Brand' }
+  - { url: '/about', text: 'About' }

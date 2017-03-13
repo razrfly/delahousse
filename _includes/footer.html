@@ -1,0 +1,40 @@
+<footer class="text-center-xs space--xs ">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <ul class="list-inline">
+          {% for item in site.data.nav.main %}
+            <li>
+                <a href="{{ item.url }}"><span class="h6 type--uppercase">{{ item.text }}</span></a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-sm-5 text-right text-center-xs">
+        <ul class="social-list list-inline list--hover">
+          {% for item in site.data.social.accounts %}
+            <li>
+              <a href="{{ item.url }}">
+                <i class="socicon socicon-{{ item.name }} icon icon--xs"></i>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <!--end of row-->
+    <div class="row">
+      <div class="col-sm-7">
+        <span class="type--fine-print">&copy;
+          <span class="update-year"></span> DELAHOUSSAYE PROVENCE
+        </span>
+      </div>
+      <div class="col-sm-5 text-right text-center-xs">
+        <span class="type--fine-print">+33 (0)4 93 74 77 86</span>
+        <a class="type--fine-print" href="#">bonjour@delahoussayeprovence.com</a>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</footer>

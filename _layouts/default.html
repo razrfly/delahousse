@@ -22,9 +22,19 @@
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
   </head>
 
-  <body>
-    {{ content }}
+  <body class=" " data-smooth-scroll-offset='180'>
+    <a id="start" data-scroll-id="start" tabindex="-1" style="outline: none;"></a>
+    {% include nav.html %}
 
+    <div class="main-container">
+      {{ content }}
+    </div>
+
+     {% include footer.html %}
+    <!--<div class="loader"></div>-->
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="stack-interface stack-up-open-big"></i>
+    </a>
     <!-- Scripts -->
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="assets/js/flickity.min.js"></script>

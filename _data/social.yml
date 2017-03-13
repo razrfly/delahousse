@@ -1,0 +1,3 @@
+accounts:
+  - { url: 'https://www.facebook.com/delahoussayeprovence', name: 'facebook' }
+  - { url: 'https://www.instagram.com/delahoussayeprovence/', name: 'instagram' }
