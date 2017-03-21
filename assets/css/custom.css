@@ -8,6 +8,11 @@ body {
   font-family: futuraStdBook;
 }
 
+.bar-2 .logo {
+  max-height: 2.5em;
+}
+
 .logo {
   font-size: 50px;
 }
+
