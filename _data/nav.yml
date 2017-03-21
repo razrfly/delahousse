@@ -1,3 +1,5 @@
 main:
-  - { url: '/delahousse/brand', text: 'Brand' }
-  - { url: '/delahousse/places', text: 'Places' }
+  - { url: '/', text: 'Home' }
+  - { url: '/wine', text: 'Wine' }
+  - { url: '/region', text: 'Vines' }
+  - { url: '/places', text: 'Places' }

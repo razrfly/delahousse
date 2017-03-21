@@ -38,9 +38,27 @@
                     <a href="{{ item.url }}">{{ item.text }}</a>
                 </li>
               {% endfor %}
+              {% for item in site.data.social.accounts %}
+                <li class="hidden-md hidden-lg">
+                  <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
+                </li>
+              {% endfor %}
             </ul>
           </div>
           <!--end module-->
+        </div>
+        <div class="col-md-5 text-right text-left-xs text-left-sm hidden-sm hidden-xs">
+          <div class="bar__module">
+            <ul class="menu-horizontal text-right">
+              {% for item in site.data.social.accounts %}
+                <li>
+                  <a href="{{ item.url }}" target="_blank">
+                    <i class="socicon socicon-{{ item.name }} icon icon--xs"></i>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
       <!--end of row-->
