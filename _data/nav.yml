@@ -1,4 +1,4 @@
 main:
   - { url: '/delahousse/', text: 'Home' }
-  - { url: '/delahousse/wine/', text: 'Wine' }
-  - { url: '/delahousse/places/', text: 'Places' }
+  - { url: '/delahousse/wine', text: 'Wine' }
+  - { url: '/delahousse/places', text: 'Places' }
