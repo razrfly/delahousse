@@ -1,5 +1,4 @@
 main:
-  - { url: '/', text: 'Home' }
-  - { url: '/wine', text: 'Wine' }
-  - { url: '/region', text: 'Vines' }
-  - { url: '/places', text: 'Places' }
+  - { url: '/delahousse/', text: 'Home' }
+  - { url: '/delahousse/wine/', text: 'Wine' }
+  - { url: '/delahousse/places/', text: 'Places' }
