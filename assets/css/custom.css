@@ -20,3 +20,12 @@ body {
   text-transform: uppercase;
   font-weight: 900;
 }
+
+hr.mid {
+  width: 30%;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
