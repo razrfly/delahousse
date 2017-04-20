@@ -3,3 +3,4 @@ main:
   - { url: '/delahousse/wine', text: 'Wine' }
   - { url: '/delahousse/vines', text: 'Vines' }
   - { url: '/delahousse/places', text: 'Places' }
+  - { url: '/delahousse/contact', text: 'Contact' }
