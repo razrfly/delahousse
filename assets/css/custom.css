@@ -29,3 +29,12 @@ hr.mid {
   margin-left: auto;
   margin-right: auto;
 }
+
+img.medaille {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  margin-bottom: 0;
+  width: 15vw;
+  z-index: 2;
+}
