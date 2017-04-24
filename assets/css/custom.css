@@ -38,3 +38,11 @@ img.medaille {
   width: 15vw;
   z-index: 2;
 }
+
+img.logo-slider {
+  position: absolute;
+  z-index: 2;
+  margin-top: 1em;
+  left: 50%;
+  margin-left: -3.5em;
+}
