@@ -1,6 +1,6 @@
 main:
-  - { url: '/delahousse/', text: 'Home' }
-  - { url: '/delahousse/wine', text: 'Wine' }
-  - { url: '/delahousse/vines', text: 'Vines' }
-  - { url: '/delahousse/places', text: 'Places' }
-  - { url: '/delahousse/contact', text: 'Contact' }
+  - { url: '/', text: 'Home' }
+  - { url: '/wine', text: 'Wine' }
+  - { url: '/vines', text: 'Vines' }
+  - { url: '/places', text: 'Places' }
+  - { url: '/contact', text: 'Contact' }
