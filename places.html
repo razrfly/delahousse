@@ -20,16 +20,43 @@ layout: default
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1">
         <div class="masonry">
-          <div class="masonry-filter-container text-center">
-            <span>Category:</span>
-            <div class="masonry-filter-holder">
-              <div class="masonry__filters" data-filter-all-text="All Categories"></div>
+          <div class="row">
+            <div class="col-md-6">
+              Type:
+              <div class="input-select" data-filter-group="type">
+                <select>
+                  <option selected="" value="">Any</option>
+                  <option value=".bar">Bar</option>
+                  <option value=".events">Events</option>
+                  <option value=".wine">Wine</option>
+                  <option value=".restaurant">Restaurant</option>
+                  <option value=".plage">Plage</option>
+                  <option value=".fine-dining">Fine Dining</option>
+                  <option value=".tapas">Tapas</option>
+                  <option value=".cocktailbar">Cocktail bar</option>
+                  <option value=".dj">Dj</option>
+                  <option value=".terrace">Terrace</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              Place:
+              <div class="input-select" data-filter-group="place">
+                <select>
+                  <option selected="" value="">Any</option>
+                  <option value=".antibes">Antibes</option>
+                  <option value=".cannes">Cannes</option>
+                  <option value=".juan-les-pins">Juan Les Pins</option>
+                </select>
+              </div>
             </div>
           </div>
+
           <hr>
           <div class="row">
             <div class="masonry__container">
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Wine bar, Restaurant">
+              <div class="masonry__item wine bar restaurant antibes col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://www.restaurant-nacional-antibes.com" target="_blank">
                     <div class="hover-element__initial">
@@ -53,7 +80,7 @@ layout: default
                 </div>
               </div>
               <!--end item-->
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Plage, Restaurant">
+              <div class="masonry__item plage restaurant juan-les-pins col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://lapetiteplagejuanlespins.fr/" target="_blank">
                     <div class="hover-element__initial">
@@ -77,7 +104,7 @@ layout: default
                 </div>
               </div>
               <!--end item-->
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Fine Dining, Restaurant">
+              <div class="masonry__item fine-dining restaurant antibes col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://www.restaurant-figuier-saint-esprit.com/" target="_blank">
                     <div class="hover-element__initial">
@@ -101,7 +128,7 @@ layout: default
                 </div>
               </div>
               <!--end item-->
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Wine bar, Tapas, Cocktailbar">
+              <div class="masonry__item wine-bar tapas cocktailbar antibes col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="https://www.facebook.com/pablovieilantibes/" target="_blank">
                     <div class="hover-element__initial">
@@ -127,7 +154,7 @@ layout: default
                 </div>
               </div>
               <!--end item-->
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Plage, Restaurant, Bar, Events">
+              <div class="masonry__item plage restaurant bar events juan-les-pines col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://www.plage-arcenciel.com/" target="_blank">
                     <div class="hover-element__initial">
@@ -152,7 +179,7 @@ layout: default
               </div>
               <!--end item-->
 
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Restaurant, Bar, Events">
+              <div class="masonry__item restaurant bar events antibes col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://www.hotelroyal-antibes.com/" target="_blank">
                     <div class="hover-element__initial">
@@ -179,7 +206,7 @@ layout: default
               </div>
               <!--end item-->
 
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Restaurant, Events">
+              <div class="masonry__item restaurant events antibes col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://www.restaurantledonjuan.fr/" target="_blank">
                     <div class="hover-element__initial">
@@ -204,7 +231,7 @@ layout: default
               </div>
               <!--end item-->
 
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Restaurant, Plage, Bar">
+              <div class="masonry__item restaurant plage bar antibes col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://moorea-plage.fr/" target="_blank">
                     <div class="hover-element__initial">
@@ -229,7 +256,7 @@ layout: default
               </div>
               <!--end item-->
 
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Restaurant, Events, Bar, Dj, Terrace">
+              <div class="masonry__item restaurant events bar dj terrace cannes col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://www.casamia-cannes.com/" target="_blank">
                     <div class="hover-element__initial">
@@ -254,7 +281,7 @@ layout: default
               </div>
               <!--end item-->
 
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Restaurant, Plage">
+              <div class="masonry__item restaurant plage cannes col-xs-12 text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://gotha-beach.com/" target="_blank">
                     <div class="hover-element__initial">
@@ -279,7 +306,7 @@ layout: default
               </div>
               <!--end item-->
 
-              <div class="masonry__item col-xs-12 text-center" data-masonry-filter="Restaurant">
+              <div class="masonry__item restaurant col-xs-12 juan-les-pins text-center">
                 <div class="project-thumb hover-element border--round">
                   <a href="http://www.restaurant-festivaldelamer.com/" target="_blank">
                     <div class="hover-element__initial">
